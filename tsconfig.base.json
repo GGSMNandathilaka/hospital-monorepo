@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@hospital/types": ["libs/shared/types/src/index.ts"],
+      "@hospital/utils": ["libs/shared/utils/src/index.ts"],
+      "@hospital/api-client": ["libs/shared/api-client/src/index.ts"],
+      "@hospital/angular-ui": ["libs/angular/ui/src/index.ts"],
+      "@hospital/react-ui": ["libs/react/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
